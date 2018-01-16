@@ -32,7 +32,7 @@ export default class DeniswongFooterApplicationCustomizer
       message = '(No properties were provided.)';
     }
 
-    Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`);
+    Dialog.alert(`Bonjour de ${strings.Title}:\n\n${message}`);
 
     return Promise.resolve();
   }
