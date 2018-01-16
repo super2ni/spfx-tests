@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "deniswong-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/deniswongFooter/DeniswongFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/deniswongFooter/DeniswongFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DeniswongFooterApplicationCustomizerStrings": "lib/extensions/deniswongFooter/loc/{locale}.js"
+  }
+}
